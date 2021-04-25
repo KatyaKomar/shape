@@ -9,7 +9,7 @@ public class ConeValidatorTest {
 
     @Test
     public void testIsValidate() {
-        String coneString = "-2 5 -6.7 0.1 1.";
+        String coneString = "2 5 -6.7 0.1 1.";
         boolean actual = ConeValidator.isValidate(coneString);
         assertTrue(actual, " Test failed as...");
     }
