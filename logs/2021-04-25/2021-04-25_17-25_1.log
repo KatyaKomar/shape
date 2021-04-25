@@ -1,0 +1,103 @@
+14:40:44.651 [main] ERROR by.task.komar.reader.ConeReader - Error in reader: file\figure.txt
+14:41:13.874 [main] ERROR by.task.komar.reader.ConeReader - Error in reader: file\figure.txt
+14:42:03.760 [main] ERROR by.task.komar.reader.ConeReader - Error in reader: file\figure.txt
+14:43:13.700 [main] ERROR by.task.komar.reader.ConeReader - Error in reader: file\figure.txt
+14:43:17.527 [main] ERROR by.task.komar.reader.ConeReader - Error in reader: file\figure.txt
+14:43:42.600 [main] ERROR by.task.komar.reader.ConeReader - Error in reader: resources\file\figure.txt
+14:44:08.405 [main] ERROR by.task.komar.reader.ConeReader - Error in reader: figure.txt
+14:44:47.833 [main] ERROR by.task.komar.reader.ConeReader - Error in reader: shape\src\main\resources\file\figure.txt
+15:00:07.329 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Surface area of cone Cone{center=Point{1.0, 2.0, 3.0}, radius=4.0, coneId=1}: 130.72951471480383
+15:00:07.333 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Volume of cone Cone{center=Point{1.0, 2.0, 3.0}, radius=4.0, coneId=1}: 83.77580409572782
+15:00:07.335 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Surface area of cone Cone{center=Point{1.0, 1.1, 1.2}, radius=1.3, coneId=2}: 13.111897222949334
+15:00:07.337 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Volume of cone Cone{center=Point{1.0, 1.1, 1.2}, radius=1.3, coneId=2}: 2.47766940613115
+15:00:07.337 [main] ERROR by.task.komar.factory.ShapeFactory - Can't be cone
+15:02:37.381 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Surface area of cone Cone{center=Point{1.0, 2.0, 3.0}, radius=4.0, coneId=1}: 130.72951471480383
+15:02:38.949 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Volume of cone Cone{center=Point{1.0, 2.0, 3.0}, radius=4.0, coneId=1}: 83.77580409572782
+15:03:05.044 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Surface area of cone Cone{center=Point{1.0, 1.1, 1.2}, radius=1.3, coneId=2}: 13.111897222949334
+15:03:05.715 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Volume of cone Cone{center=Point{1.0, 1.1, 1.2}, radius=1.3, coneId=2}: 2.47766940613115
+15:03:42.838 [main] ERROR by.task.komar.factory.ShapeFactory - Can't be cone
+15:05:30.772 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Surface area of cone Cone{center=Point{1.0, 2.0, 3.0}, radius=4.0, coneId=1}: 130.72951471480383
+15:05:30.775 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Volume of cone Cone{center=Point{1.0, 2.0, 3.0}, radius=4.0, coneId=1}: 83.77580409572782
+15:05:30.776 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Surface area of cone Cone{center=Point{1.0, 1.1, 1.2}, radius=1.3, coneId=2}: 13.111897222949334
+15:05:30.776 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Volume of cone Cone{center=Point{1.0, 1.1, 1.2}, radius=1.3, coneId=2}: 2.47766940613115
+15:05:30.777 [main] ERROR by.task.komar.factory.ShapeFactory - Can't be cone
+15:15:47.566 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Surface area of cone Cone{center=Point{1.0, 2.0, 3.0}, radius=4.0, coneId=1}: 130.72951471480383
+15:15:47.569 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Volume of cone Cone{center=Point{1.0, 2.0, 3.0}, radius=4.0, coneId=1}: 83.77580409572782
+15:15:47.570 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Surface area of cone Cone{center=Point{1.0, 1.1, 1.2}, radius=1.3, coneId=2}: 13.111897222949334
+15:15:47.571 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Volume of cone Cone{center=Point{1.0, 1.1, 1.2}, radius=1.3, coneId=2}: 2.47766940613115
+15:15:47.571 [main] ERROR by.task.komar.factory.ShapeFactory - Can't be cone
+15:45:05.814 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Surface area of cone Cone{center=Point{1.0, 2.0, 3.0}, radius=4.0, coneId=1}: 130.72951471480383
+15:45:05.818 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Volume of cone Cone{center=Point{1.0, 2.0, 3.0}, radius=4.0, coneId=1}: 83.77580409572782
+15:45:05.819 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Surface area of cone Cone{center=Point{1.0, 1.1, 1.2}, radius=1.3, coneId=2}: 13.111897222949334
+15:45:05.820 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Volume of cone Cone{center=Point{1.0, 1.1, 1.2}, radius=1.3, coneId=2}: 2.47766940613115
+15:45:05.821 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Surface area of cone Cone{center=Point{-1.0, -1.0, -1.0}, radius=1.0, coneId=3}: 7.584475591748159
+15:45:05.821 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Volume of cone Cone{center=Point{-1.0, -1.0, -1.0}, radius=1.0, coneId=3}: 1.0471975511965976
+16:39:23.668 [main] ERROR by.task.komar.parser.ConeParser - This line isn't correct
+16:50:08.277 [main] ERROR by.task.komar.reader.ConeReader - Error in reader: path.txt
+17:21:42.870 [main] INFO  by.task.komar.reader.ConeReader - This lines [1 2 3 4 5, 1.0 1.1 1.2 1.3 1.4, -1 -1 -1 1 1] are correct
+17:21:42.879 [main] ERROR by.task.komar.factory.ShapeFactory - Create cone Cone{center=Point{1.0, 2.0, 3.0}, radius=4.0, coneId=1}
+17:21:42.891 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Surface area of cone Cone{center=Point{1.0, 2.0, 3.0}, radius=4.0, coneId=1}: 130.72951471480383
+17:21:42.892 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Volume of cone Cone{center=Point{1.0, 2.0, 3.0}, radius=4.0, coneId=1}: 83.77580409572782
+17:21:42.895 [main] INFO  by.task.komar.repository.impl.ConeRepository - New cone in repository: Cone{center=Point{1.0, 2.0, 3.0}, radius=4.0, coneId=1}
+17:21:42.896 [main] INFO  by.task.komar.creator.ConeCreator - add cone Cone{center=Point{1.0, 2.0, 3.0}, radius=4.0, coneId=1} to repository
+17:21:42.898 [main] ERROR by.task.komar.factory.ShapeFactory - Create cone Cone{center=Point{1.0, 1.1, 1.2}, radius=1.3, coneId=2}
+17:21:42.899 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Surface area of cone Cone{center=Point{1.0, 1.1, 1.2}, radius=1.3, coneId=2}: 13.111897222949334
+17:21:42.899 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Volume of cone Cone{center=Point{1.0, 1.1, 1.2}, radius=1.3, coneId=2}: 2.47766940613115
+17:21:42.899 [main] INFO  by.task.komar.repository.impl.ConeRepository - New cone in repository: Cone{center=Point{1.0, 1.1, 1.2}, radius=1.3, coneId=2}
+17:21:42.900 [main] INFO  by.task.komar.creator.ConeCreator - add cone Cone{center=Point{1.0, 1.1, 1.2}, radius=1.3, coneId=2} to repository
+17:21:42.901 [main] ERROR by.task.komar.factory.ShapeFactory - Create cone Cone{center=Point{-1.0, -1.0, -1.0}, radius=1.0, coneId=3}
+17:21:42.901 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Surface area of cone Cone{center=Point{-1.0, -1.0, -1.0}, radius=1.0, coneId=3}: 7.584475591748159
+17:21:42.901 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Volume of cone Cone{center=Point{-1.0, -1.0, -1.0}, radius=1.0, coneId=3}: 1.0471975511965976
+17:21:42.902 [main] INFO  by.task.komar.repository.impl.ConeRepository - New cone in repository: Cone{center=Point{-1.0, -1.0, -1.0}, radius=1.0, coneId=3}
+17:21:42.902 [main] INFO  by.task.komar.creator.ConeCreator - add cone Cone{center=Point{-1.0, -1.0, -1.0}, radius=1.0, coneId=3} to repository
+17:21:42.902 [main] ERROR by.task.komar.factory.ShapeFactory - Create cone Cone{center=Point{1.0, 1.0, 1.0}, radius=1.0, coneId=4}
+17:21:42.902 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Surface area of cone Cone{center=Point{1.0, 1.0, 1.0}, radius=1.0, coneId=4}: 7.584475591748159
+17:21:42.903 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Volume of cone Cone{center=Point{1.0, 1.0, 1.0}, radius=1.0, coneId=4}: 1.0471975511965976
+17:21:42.903 [main] INFO  by.task.komar.repository.impl.ConeRepository - New cone in repository: Cone{center=Point{1.0, 1.0, 1.0}, radius=1.0, coneId=4}
+17:21:42.904 [main] INFO  by.task.komar.creator.ConeCreator - add cone Cone{center=Point{1.0, 1.0, 1.0}, radius=1.0, coneId=4} to repository
+17:21:42.904 [main] ERROR by.task.komar.factory.ShapeFactory - Create cone Cone{center=Point{0.0, 0.0, 0.0}, radius=5.7, coneId=5}
+17:21:42.904 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Surface area of cone Cone{center=Point{0.0, 0.0, 0.0}, radius=5.7, coneId=5}: 204.15639738504194
+17:21:42.905 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Volume of cone Cone{center=Point{0.0, 0.0, 0.0}, radius=5.7, coneId=5}: 3.402344843837746
+17:21:42.905 [main] INFO  by.task.komar.repository.impl.ConeRepository - New cone in repository: Cone{center=Point{0.0, 0.0, 0.0}, radius=5.7, coneId=5}
+17:21:42.905 [main] INFO  by.task.komar.creator.ConeCreator - add cone Cone{center=Point{0.0, 0.0, 0.0}, radius=5.7, coneId=5} to repository
+17:25:13.998 [main] INFO  by.task.komar.reader.ConeReader - This lines [1 2 3 4 5, 1.0 1.1 1.2 1.3 1.4, -1 -1 -1 1 1] are correct
+17:25:14.007 [main] ERROR by.task.komar.factory.ShapeFactory - Create cone Cone{center=Point{1.0, 2.0, 3.0}, radius=4.0, coneId=1}
+17:25:14.013 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Surface area of cone Cone{center=Point{1.0, 2.0, 3.0}, radius=4.0, coneId=1}: 130.72951471480383
+17:25:14.014 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Volume of cone Cone{center=Point{1.0, 2.0, 3.0}, radius=4.0, coneId=1}: 83.77580409572782
+17:25:14.017 [main] INFO  by.task.komar.repository.impl.ConeRepository - New cone in repository: Cone{center=Point{1.0, 2.0, 3.0}, radius=4.0, coneId=1}
+17:25:14.018 [main] INFO  by.task.komar.creator.ConeCreator - add cone Cone{center=Point{1.0, 2.0, 3.0}, radius=4.0, coneId=1} to repository
+17:25:14.019 [main] ERROR by.task.komar.factory.ShapeFactory - Create cone Cone{center=Point{1.0, 1.1, 1.2}, radius=1.3, coneId=2}
+17:25:14.019 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Surface area of cone Cone{center=Point{1.0, 1.1, 1.2}, radius=1.3, coneId=2}: 13.111897222949334
+17:25:14.019 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Volume of cone Cone{center=Point{1.0, 1.1, 1.2}, radius=1.3, coneId=2}: 2.47766940613115
+17:25:14.019 [main] INFO  by.task.komar.repository.impl.ConeRepository - New cone in repository: Cone{center=Point{1.0, 1.1, 1.2}, radius=1.3, coneId=2}
+17:25:14.020 [main] INFO  by.task.komar.creator.ConeCreator - add cone Cone{center=Point{1.0, 1.1, 1.2}, radius=1.3, coneId=2} to repository
+17:25:14.020 [main] ERROR by.task.komar.factory.ShapeFactory - Create cone Cone{center=Point{-1.0, -1.0, -1.0}, radius=1.0, coneId=3}
+17:25:14.021 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Surface area of cone Cone{center=Point{-1.0, -1.0, -1.0}, radius=1.0, coneId=3}: 7.584475591748159
+17:25:14.021 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Volume of cone Cone{center=Point{-1.0, -1.0, -1.0}, radius=1.0, coneId=3}: 1.0471975511965976
+17:25:14.021 [main] INFO  by.task.komar.repository.impl.ConeRepository - New cone in repository: Cone{center=Point{-1.0, -1.0, -1.0}, radius=1.0, coneId=3}
+17:25:14.021 [main] INFO  by.task.komar.creator.ConeCreator - add cone Cone{center=Point{-1.0, -1.0, -1.0}, radius=1.0, coneId=3} to repository
+17:25:14.022 [main] ERROR by.task.komar.factory.ShapeFactory - Create cone Cone{center=Point{1.0, 1.0, 1.0}, radius=1.0, coneId=4}
+17:25:14.022 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Surface area of cone Cone{center=Point{1.0, 1.0, 1.0}, radius=1.0, coneId=4}: 7.584475591748159
+17:25:14.022 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Volume of cone Cone{center=Point{1.0, 1.0, 1.0}, radius=1.0, coneId=4}: 1.0471975511965976
+17:25:14.022 [main] INFO  by.task.komar.repository.impl.ConeRepository - New cone in repository: Cone{center=Point{1.0, 1.0, 1.0}, radius=1.0, coneId=4}
+17:25:14.023 [main] INFO  by.task.komar.creator.ConeCreator - add cone Cone{center=Point{1.0, 1.0, 1.0}, radius=1.0, coneId=4} to repository
+17:25:14.023 [main] ERROR by.task.komar.factory.ShapeFactory - Create cone Cone{center=Point{0.0, 0.0, 0.0}, radius=5.7, coneId=5}
+17:25:14.023 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Surface area of cone Cone{center=Point{0.0, 0.0, 0.0}, radius=5.7, coneId=5}: 204.15639738504194
+17:25:14.023 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Volume of cone Cone{center=Point{0.0, 0.0, 0.0}, radius=5.7, coneId=5}: 3.402344843837746
+17:25:14.023 [main] INFO  by.task.komar.repository.impl.ConeRepository - New cone in repository: Cone{center=Point{0.0, 0.0, 0.0}, radius=5.7, coneId=5}
+17:25:14.024 [main] INFO  by.task.komar.creator.ConeCreator - add cone Cone{center=Point{0.0, 0.0, 0.0}, radius=5.7, coneId=5} to repository
+17:25:34.944 [main] INFO  by.task.komar.reader.ConeReader - This lines [1 2 3 4 5, 1.0 1.1 1.2 1.3 1.4, -1 -1 -1 1 1] are correct
+17:25:34.955 [main] ERROR by.task.komar.factory.ShapeFactory - Create cone Cone{center=Point{1.0, 2.0, 3.0}, radius=4.0, coneId=1}
+17:25:34.962 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Surface area of cone Cone{center=Point{1.0, 2.0, 3.0}, radius=4.0, coneId=1}: 130.72951471480383
+17:25:34.963 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Volume of cone Cone{center=Point{1.0, 2.0, 3.0}, radius=4.0, coneId=1}: 83.77580409572782
+17:25:34.966 [main] INFO  by.task.komar.repository.impl.ConeRepository - New cone in repository: Cone{center=Point{1.0, 2.0, 3.0}, radius=4.0, coneId=1}
+17:25:34.967 [main] INFO  by.task.komar.creator.ConeCreator - add cone Cone{center=Point{1.0, 2.0, 3.0}, radius=4.0, coneId=1} to repository
+17:25:34.967 [main] ERROR by.task.komar.factory.ShapeFactory - Create cone Cone{center=Point{1.0, 1.1, 1.2}, radius=1.3, coneId=2}
+17:25:34.967 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Surface area of cone Cone{center=Point{1.0, 1.1, 1.2}, radius=1.3, coneId=2}: 13.111897222949334
+17:25:34.968 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Volume of cone Cone{center=Point{1.0, 1.1, 1.2}, radius=1.3, coneId=2}: 2.47766940613115
+17:25:34.968 [main] INFO  by.task.komar.repository.impl.ConeRepository - New cone in repository: Cone{center=Point{1.0, 1.1, 1.2}, radius=1.3, coneId=2}
+17:25:34.968 [main] INFO  by.task.komar.creator.ConeCreator - add cone Cone{center=Point{1.0, 1.1, 1.2}, radius=1.3, coneId=2} to repository
+17:25:34.968 [main] ERROR by.task.komar.factory.ShapeFactory - Create cone Cone{center=Point{-1.0, -1.0, -1.0}, radius=1.0, coneId=3}
+17:25:34.968 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Surface area of cone Cone{center=Point{-1.0, -1.0, -1.0}, radius=1.0, coneId=3}: 7.584475591748159
+17:25:34.968 [main] INFO  by.task.komar.service.impl.CalculationServiceImpl - Volume of cone Cone{center=Point{-1.0, -1.0, -1.0}, radius=1.0, coneId=3}: 1.0471975511965976
+17:25:34.969 [main] INFO  by.task.komar.repository.impl.ConeRepository - New cone in repository: Cone{center=Point{-1.0, -1.0, -1.0}, radius=1.0, coneId=3}
