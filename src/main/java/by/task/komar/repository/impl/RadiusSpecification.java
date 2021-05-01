@@ -3,11 +3,11 @@ package by.task.komar.repository.impl;
 import by.task.komar.entity.Cone;
 import by.task.komar.repository.Specification;
 
-public class SpecificationByRadius implements Specification {
+public class RadiusSpecification implements Specification {
     private double minRadius;
     private double maxRadius;
 
-    public SpecificationByRadius(double minRadius, double maxRadius) {
+    public RadiusSpecification(double minRadius, double maxRadius) {
         this.minRadius = minRadius;
         this.maxRadius = maxRadius;
     }

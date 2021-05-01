@@ -10,29 +10,12 @@ import java.util.Map;
 
 public class Warehouse {
     private static Logger logger = LogManager.getLogger();
-    private Map<Long, ConeParameters> coneMap;
     private static Warehouse instance;
+    private Map<Long, ConeParameters> coneMap;
+
 
     private Warehouse() {
         this.coneMap = new HashMap<>();
-    }
-
-    public void put(Long coneId, ConeParameters parameters) {
-        coneMap.put(coneId, parameters);
-    }
-
-    public ConeParameters remove(Long coneId) {
-        ConeParameters parameters = coneMap.remove(coneId);
-        return parameters;
-    }
-
-    public ConeParameters get(Long coneId) throws ConeException {
-        ConeParameters parameters = coneMap.get(coneId);
-        if (parameters == null) {
-            logger.log(Level.ERROR, "There are no such element");
-            throw new ConeException("There are no such element");
-        }
-        return parameters;
     }
 
     public static Warehouse getInstance() {
@@ -40,5 +23,22 @@ public class Warehouse {
             instance = new Warehouse();
         }
         return instance;
+    }
+
+    public ConeParameters put(Long coneId, ConeParameters parameters) {
+        return coneMap.put(coneId, parameters);
+    }
+
+    public ConeParameters remove(Long coneId) {
+        return coneMap.remove(coneId);
+    }
+
+    public ConeParameters get(Long coneId) throws ConeException {
+        ConeParameters parameters = coneMap.get(coneId);
+        if (parameters == null) {
+            logger.log(Level.ERROR, "There are no such element by id " + coneId);
+            throw new ConeException("There are no such element by id " + coneId);
+        }
+        return parameters;
     }
 }

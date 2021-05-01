@@ -2,7 +2,7 @@ package by.task.komar.observer;
 
 import by.task.komar.exception.ConeException;
 
-public interface Observable<T extends Observer> {
+public interface ConeObservable<T extends ConeObserver> {
     void attach(T observer);
 
     void detach(T observer);

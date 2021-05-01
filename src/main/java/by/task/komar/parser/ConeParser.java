@@ -10,10 +10,10 @@ public class ConeParser {
     private static Logger logger = LogManager.getLogger();
     private final String SPACE = "\\s+";
 
-    public double[] parse(String string) throws ConeException {
+    public double[] parse(String data) throws ConeException {
         ConeValidator validator = new ConeValidator();
-        if (validator.isValidate(string)) {
-            String[] value = string.split(SPACE);
+        if (validator.isValidate(data)) {
+            String[] value = data.split(SPACE);
             double[] array = new double[value.length];
             for (int i = 0; i < value.length; i++) {
                 array[i] = Double.parseDouble(value[i]);

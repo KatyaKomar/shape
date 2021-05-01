@@ -5,7 +5,7 @@ import by.task.komar.service.impl.CalculationServiceImpl;
 
 import java.util.Comparator;
 
-public class VolumeComparator implements Comparator<Cone> {
+public class ConeVolumeComparator implements Comparator<Cone> {
     @Override
     public int compare(Cone o1, Cone o2) {
         CalculationServiceImpl calculationService = new CalculationServiceImpl();

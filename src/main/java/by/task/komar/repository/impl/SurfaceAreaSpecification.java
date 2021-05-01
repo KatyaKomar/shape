@@ -4,11 +4,11 @@ import by.task.komar.entity.Cone;
 import by.task.komar.repository.Specification;
 import by.task.komar.service.impl.CalculationServiceImpl;
 
-public class SpecificationBySurfaceArea implements Specification {
+public class SurfaceAreaSpecification implements Specification {
     private double minSurfaceArea;
     private double maxSurfaceArea;
 
-    public SpecificationBySurfaceArea(double minSurfaceArea, double maxSurfaceArea) {
+    public SurfaceAreaSpecification(double minSurfaceArea, double maxSurfaceArea) {
         this.minSurfaceArea = minSurfaceArea;
         this.maxSurfaceArea = maxSurfaceArea;
     }

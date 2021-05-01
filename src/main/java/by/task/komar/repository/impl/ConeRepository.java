@@ -7,27 +7,16 @@ import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class ConeRepository implements Repository {
     private static Logger logger = LogManager.getLogger();
-    private List<Cone> cones;
     private static ConeRepository instance;
+    private List<Cone> cones;
 
-    public List<Cone> getCones() {
-        return cones;
-    }
-
-    public Cone get(int index) {
-        return cones.get(index);
-    }
-
-    public int size() {
-        return cones.size();
+    public ConeRepository() {
+        cones = new ArrayList<>();
     }
 
     public static ConeRepository getInstance() {
@@ -37,8 +26,16 @@ public class ConeRepository implements Repository {
         return instance;
     }
 
-    public ConeRepository() {
-        cones = new ArrayList<>();
+    public List<Cone> getCones() {
+        return Collections.unmodifiableList(cones);
+    }
+
+    public Cone get(int index) {
+        return cones.get(index);
+    }
+
+    public int size() {
+        return cones.size();
     }
 
     @Override
@@ -64,7 +61,7 @@ public class ConeRepository implements Repository {
     }
 
     @Override
-    public List query(Specification specification) {
+    public List<? super Cone> query(Specification specification) {
         List<Cone> result = cones.stream().filter(specification::specify).collect(Collectors.toList());
         logger.log(Level.INFO, "Query by specification " + specification + ": " + result);
         return result;

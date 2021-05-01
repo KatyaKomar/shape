@@ -12,7 +12,6 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class ConeReader {
     private static Logger logger = LogManager.getLogger();
@@ -21,10 +20,9 @@ public class ConeReader {
         List<String> lines;
         Path path = Paths.get(filename);
         try {
-            Stream<String> lineStream = Files.lines(path);
-            lines = lineStream.filter(ConeValidator::isValidate).collect(Collectors.toList());
+            lines = Files.lines(path).filter(ConeValidator::isValidate).collect(Collectors.toList());
         } catch (IOException ex) {
-            logger.log(Level.ERROR, "Error in reader: " + ex.getMessage());
+            logger.log(Level.ERROR, "Incorrect filename " + filename);
             throw new ConeException("Incorrect filename " + filename);
         }
         logger.log(Level.INFO, "This lines " + lines + " are correct");

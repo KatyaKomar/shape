@@ -3,11 +3,11 @@ package by.task.komar.repository.impl;
 import by.task.komar.entity.Cone;
 import by.task.komar.repository.Specification;
 
-public class SpecificationByHeight implements Specification {
+public class HeightSpecification implements Specification {
     private double minHeight;
     private double maxHeight;
 
-    public SpecificationByHeight(double minHeight, double maxHeight) {
+    public HeightSpecification(double minHeight, double maxHeight) {
         this.minHeight = minHeight;
         this.maxHeight = maxHeight;
     }

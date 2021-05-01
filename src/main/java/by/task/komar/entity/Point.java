@@ -1,7 +1,9 @@
 package by.task.komar.entity;
 
 public class Point {
-    private double x, y, z;
+    private double x;
+    private double y;
+    private double z;
 
     public Point() {
     }

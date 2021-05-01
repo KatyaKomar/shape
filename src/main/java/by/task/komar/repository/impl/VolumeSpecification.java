@@ -4,11 +4,11 @@ import by.task.komar.entity.Cone;
 import by.task.komar.repository.Specification;
 import by.task.komar.service.impl.CalculationServiceImpl;
 
-public class SpecificationByVolume implements Specification {
+public class VolumeSpecification implements Specification {
     private double minVolume;
     private double maxVolume;
 
-    public SpecificationByVolume(double minVolume, double maxVolume) {
+    public VolumeSpecification(double minVolume, double maxVolume) {
         this.minVolume = minVolume;
         this.maxVolume = maxVolume;
     }

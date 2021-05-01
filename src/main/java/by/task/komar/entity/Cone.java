@@ -2,8 +2,8 @@ package by.task.komar.entity;
 
 import by.task.komar.exception.ConeException;
 import by.task.komar.observer.ConeEvent;
-import by.task.komar.observer.Observable;
-import by.task.komar.observer.impl.ConeObserver;
+import by.task.komar.observer.ConeObservable;
+import by.task.komar.observer.impl.ConeObserverImpl;
 import by.task.komar.util.IdGenerator;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
@@ -12,13 +12,13 @@ import org.apache.logging.log4j.Logger;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Cone implements Observable<ConeObserver> {
+public class Cone implements ConeObservable<ConeObserverImpl> {
     private static Logger logger = LogManager.getLogger();
+    private long coneId;
     private Point center;
     private double radius;
     private double height;
-    private long coneId;
-    private List<ConeObserver> observers = new ArrayList<>();
+    private List<ConeObserverImpl> observers = new ArrayList<>();
 
     public Cone(Point center, double radius, double height) {
         this.center = center;
@@ -41,12 +41,11 @@ public class Cone implements Observable<ConeObserver> {
     }
 
     public void setRadius(double radius) throws ConeException {
-        if (radius > 0) {
-            this.radius = radius;
-        } else {
+        if (radius <= 0) {
             logger.log(Level.ERROR, "Radius can't be " + radius);
             throw new ConeException("Radius can't be " + radius);
         }
+        this.radius = radius;
         notifyObservers();
     }
 
@@ -55,12 +54,11 @@ public class Cone implements Observable<ConeObserver> {
     }
 
     public void setHeight(double height) throws ConeException {
-        if (radius > 0) {
-            this.height = height;
-        } else {
+        if (height <= 0) {
             logger.log(Level.ERROR, "Height can't be " + radius);
             throw new ConeException("Height can't be " + height);
         }
+        this.height = height;
         notifyObservers();
     }
 
@@ -102,12 +100,12 @@ public class Cone implements Observable<ConeObserver> {
     }
 
     @Override
-    public void attach(ConeObserver observer) {
+    public void attach(ConeObserverImpl observer) {
         observers.add(observer);
     }
 
     @Override
-    public void detach(ConeObserver observer) {
+    public void detach(ConeObserverImpl observer) {
         observers.remove(observer);
     }
 
@@ -115,7 +113,7 @@ public class Cone implements Observable<ConeObserver> {
     public void notifyObservers() throws ConeException {
         ConeEvent coneEvent = new ConeEvent(this);
         if (!observers.isEmpty()) {
-            for (ConeObserver observer : observers) {
+            for (ConeObserverImpl observer : observers) {
                 observer.updateSurfaceArea(coneEvent);
                 observer.updateVolume(coneEvent);
             }

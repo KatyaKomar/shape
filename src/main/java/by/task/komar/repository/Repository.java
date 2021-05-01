@@ -15,7 +15,7 @@ public interface Repository {
 
     boolean removeAllCone(Collection<Cone> cone);
 
-    List query(Specification specification);
+    List<? super Cone> query(Specification specification);
 
     List sort(Comparator<? super Cone> comparator);
 }

@@ -13,8 +13,8 @@ public class ShapeFactory {
     public static Cone createCone(Point point, double radius, double height) throws ConeException {
         Cone cone;
         if (radius <= 0 || height <= 0) {
-            logger.log(Level.ERROR, "Can't be cone");
-            throw new ConeException("Can't be cone");
+            logger.log(Level.ERROR, "Can't be cone because radius is " + radius + " and height is " + height);
+            throw new ConeException("Can't be cone because radius is " + radius + " and height is " + height);
         }
         cone = new Cone(point, radius, height);
         logger.log(Level.ERROR, "Create cone " + cone.toString());
@@ -28,8 +28,8 @@ public class ShapeFactory {
 
     public static Cone createCone(double[] array) throws ConeException {
         if (array.length != 5) {
-            logger.log(Level.ERROR, "Can't be cone");
-            throw new ConeException("Can't be cone");
+            logger.log(Level.ERROR, "Can't be cone because radius is " + array[3] + " and height is " + array[4]);
+            throw new ConeException("Can't be cone because radius is " + array[3] + " and height is " + array[4]);
         }
         Point point = new Point(array[0], array[1], array[2]);
         double radius = array[3];
